@@ -1,0 +1,45 @@
+Turno 01
+Enunciado:
+Una compañía de alquiler de automóviles desea un programa para procesar los datos de los alquileres 
+que tiene en cartera. Por cada operación de alquiler realizada se tienen los siguientes datos: el número 
+de identificación de esa operación, la descripción del automóvil alquilado, el tipo de automóvil (un 
+número entero entre 0 y 9, para indicar por ejemplo: 0: sedán cuatro puertas, 1: familiar siete asientos, 
+etc.), el importe a cobrar por el alquiler y la cantidad de días por los que se hace el alquiler. Se desea 
+almacenar la información referida a los n alquileres en un arreglo de registros de tipo Alquiler (definir el 
+tipo Alquiler y cargar n por teclado).
+
+Se pide desarrollar un programa en Python controlado por un menú de opciones, que permita gestionar
+las siguientes tareas: 
+
+1- Cargar el arreglo pedido con los datos de los n alquileres. Valide que el número identificador de la
+operación de alquiler sea positivo y que el tipo del vehículo esté entre 0 y 9. Puede hacer la carga 
+en forma manual, o puede generar los datos en forma automática (con valores aleatorios) o 
+puede disponer de ambas técnicas si lo desea. Pero al menos una debe programar. 
+
+2- Mostrar todos los datos de todos los alquileres, en un listado ordenado de menor a mayor según
+los importes a cobrar de esos alquileres.
+
+3- Determinar y mostrar la cantidad de alquileres que se hicieron de cada tipo posible de vehículo
+(un contador para los alquileres de vehículos tipo 0, otro para el tipo 1, etc.) En total, 10
+contadores usando un vector de conteo.
+
+4- Determinar si fue alquilado un vehículo cuya descripción sea igual a c y que haya sido alquilado
+por x cantidad de días o más, siendo c y x dos valores que se cargan por teclado. Si existe, mostrar 
+sus datos. Si no existe, informar con un mensaje. Si existe más de un registro que coincida con 
+esos parámetros de búsqueda, debe mostrar sólo el primero que encuentre.
+
+5- Mostrar los datos de todos los alquileres, cuyo tipo de automovila sea un valor x ingresado por el usuario y cuyo importe a
+cobrar sea mayor o igual al un improte z tambien ingresado por el usuario.
+Al final del listado indique cual fue el importe promedio que se le cobro
+
+Criterios generales de evaluación:
+a.) Desarrollo del programa completo, incluyendo el menú correctamente planteado, funciones 
+correctamente diseñadas y parametrizadas (cuando sea apropiado) y validaciones: [máximo: 3 
+puntos (20% del puntaje)]
+b.) Desarrollo correcto del ítem 1: [máximo: 3 puntos (20% del puntaje)]
+c.) Desarrollo correcto del ítem 2: [máximo: 3 puntos (20% del puntaje)]
+d.) Desarrollo correcto del ítem 3: [máximo: 3 puntos (20% del puntaje)]
+e.) Desarrollo correcto del ítem 4: [máximo: 3 puntos (20% del puntaje)]
+f.) Para aprobar el parcial, el alumno debe llegar a un total acumulado de al menos 55% del puntaje
+(es decir, alrededor de 8.25 puntos acumulados), pero obligatoriamente debe estar desarrollado 
+el programa funcionando y operativo.
